@@ -14,16 +14,16 @@ Contract Automation</button>
           </h1>
           <p className="text-sm mb-5">Let's get started with a 30 day free trial</p>
           <div>
-            <input className="bg-transparent border-b-2 mb-5 mt-5 w-full" placeholder="Name"/>
+            <input className="bg-transparent border-b-2 mb-5 mt-5 w-full h-10 focus:outline-0" placeholder="Name"/>
           </div>
           <div>
-            <input className="bg-transparent border-b-2 mb-5 mt-5 w-full" placeholder="Email"/>
+            <input className="bg-transparent border-b-2 mb-5 mt-5 w-full h-10 focus:outline-0" placeholder="Email"/>
           </div>
           <div>
-            <input className="bg-transparent border-b-2 mb-5 mt-5 w-full" placeholder="Password"/>
+            <input className="bg-transparent border-b-2 mb-5 mt-5 w-full h-10 focus:outline-0" placeholder="Password"/>
           </div>
           <div>
-            <button className="bg-black rounded-full text-white font-bold h-12 mb-5 mt-5 w-full">Create Account</button>
+            <button className="bg-black rounded-full text-white font-bold h-12 mb-5 mt-5 w-full hover:bg-white hover:border-2 hover:border-black hover:text-black">Create Account</button>
           </div>
           <div>
             <button className="rounded-full border-2 h-12 font-bold mb-5 w-full">Sign Up with Google</button>
