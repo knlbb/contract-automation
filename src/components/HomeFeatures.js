@@ -2,19 +2,38 @@ import React from 'react'
 
 function HomeFeatures() {
   return (
-    <div className='justify-center flex flex-col grid grid-col mt-20 py-10 px-[15%] border-b-2 border-gray-100 m-24'>
-        <img className="h-48" src="https://assets.website-files.com/5e9855559cdf4d431e202e55/5ed77ae201927f963bcf4ad7_document_automation_faq.svg"/>
-        <h1 className='text-5xl mb-5 font-semibold'>
-            Generate documents blazingly fast
-        </h1>
-        <h1 className='text-lg mb-10 text-gray-700'>
-            Build and use your own document automation templates with ease.
-        </h1>
-        <div className='flex gap-5 mb-15'>
-            <button className='bg-gray-900 hover:bg-gray-700 focus:outline-none rounded-xl h-12 px-5 text-white'>Get Started</button>
-            <button className='border-2 border-gray-300 text-gray-900 hover:bg-gray-100 hover:border-gray-200 rounded-xl h-12 px-5'>Request Demo</button>
+    <>
+    <div className='grid grid-cols-2 py-10 px-[5%] border-b-2 border-gray-100 m-24'>
+        <div className='flex justify-center'>
+            <img class="rounded-lg h-full" src="https://www.ignitec.com/wp-content/uploads/2019/12/Free-Non-Disclosure-Agreement-template-to-keep-your-next-product-idea-safe-icon.png" alt=""/>
+        </div>
+        <div className='p-10'>
+            <h1 className='text-5xl mb-5 font-semibold'>
+                Generate documents blazingly fast
+            </h1>
+            <h1 className='text-lg mb-10 text-gray-700'>
+                Once you've experienced the magic of document automation, you might never look back. Stop spending hours on drafts. Create even the most complex documents within minutes.
+            </h1>
+            <h1 className='text-lg mb-10 text-gray-700'>
+                It's as easy as answering a questionnaire and watching your document being created in real-time. You're always in control.
+            </h1>
+
         </div>
     </div>
+    <div className='grid grid-cols-2 py-10 px-[5%] border-b-2 border-gray-100 m-24'>
+        <div className='p-10'>
+            <h1 className='text-5xl mb-5 font-semibold'>
+                Make content available to anyone you want
+            </h1>
+            <h1 className='text-lg mb-10 text-gray-700'>
+                Use our publications feature to give clients, team members or whole departments self-service access to automated document templates.            </h1>
+        </div>
+        <div className='flex justify-center'>
+            <img class="rounded-lg h-full" src="https://www.ignitec.com/wp-content/uploads/2019/12/Free-Non-Disclosure-Agreement-template-to-keep-your-next-product-idea-safe-icon.png" alt=""/>
+        </div>
+    </div>
+    </>
+
   )
 }
 
