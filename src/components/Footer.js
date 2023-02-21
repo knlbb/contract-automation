@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function Footer() {
   return (
@@ -7,29 +8,29 @@ function Footer() {
             <div className='grid grid-cols-4 gap-10 w-full pt-16'>
                 <div className='flex flex-col '>
                     <h1 className='text-l font-semibold'>Legal</h1>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Privacy Policy</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Legal Notice</a>
+                    <Link to="/privacy-policy"><a className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Privacy Policy</a></Link>
+                    <Link to="/legal-notice"><a className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Legal Notice</a></Link>
                 </div>
                 <div className='flex flex-col '>
                     <h1 className='text-l font-semibold'>Examples</h1>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Shareholder Agreement</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Sales & Purchase</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Non-Disclosure Agreement</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Employee Contract</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Shareholder Agreement</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Sales & Purchase</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Non-Disclosure Agreement</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Employee Contract</a>
                 </div>
                 <div className='flex flex-col '>
                     <h1 className='text-l font-semibold'>Examples</h1>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Shareholder Agreement</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Sales & Purchase</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Non-Disclosure Agreement</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Employee Contract</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Shareholder Agreement</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Sales & Purchase</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Non-Disclosure Agreement</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Employee Contract</a>
                 </div>
                 <div className='flex flex-col '>
                     <h1 className='text-l font-semibold'>Examples</h1>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Shareholder Agreement</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Sales & Purchase</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Non-Disclosure Agreement</a>
-                    <a href="" className='text-sm text-gray-700 mt-2'>Employee Contract</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Shareholder Agreement</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Sales & Purchase</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Non-Disclosure Agreement</a>
+                    <a href="" className='text-sm text-gray-500 mt-2 hover:text-gray-900'>Employee Contract</a>
                 </div>
                 
             </div>
