@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <nav className="flex justify-between px-[20%] py-5 items-center bg-white">
-        <h1 className="text-xl text-gray-800 font-bold"><Link to="/"><a>Contract Auto</a></Link></h1>
+        <h1 className="text-xl text-gray-800 font-bold"><Link to="/"><a>DocuMate</a></Link></h1>
         <div className="flex items-center">
             <ul className="flex items-center space-x-6">
                 <li className="hover:text-gray-900 text-gray-600">

@@ -34,7 +34,7 @@ function Footer() {
                 </div>
                 
             </div>
-            <h1 className='mt-24 text-gray-400'>Copyright © 2023 Contract Auto. All rights reserved.</h1>
+            <h1 className='mt-24 text-gray-400'>Copyright © 2023 DocuMate. All rights reserved.</h1>
         </div>
     </div>
   )
