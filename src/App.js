@@ -10,6 +10,8 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import LegalNotice from './pages/LegalNotice';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Login from './pages/Login';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/create-account" element={<CreateAccount/>}/>
+        <Route path="/login" element={<Login/>}/>
         <Route path="/features" element={<Features/>}/>
         <Route path="/request-a-demo" element={<Demo/>}/>
         <Route path="/plans-and-pricing" element={<PlanAndPrice/>}/>
