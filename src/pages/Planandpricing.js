@@ -7,7 +7,7 @@ function planandpricing() {
     <div class="">
             <div class="text-center font-semibold">
                 <h1 class="text-5xl">
-                    <span class="text-blue-700 tracking-wide">Flexible </span>
+                    <span class="text-blue-700 tracking-wide">DocuMate </span>
                     <span>Plans</span>
                 </h1>
                 <p class="pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full">
